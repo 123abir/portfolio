@@ -9,7 +9,7 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 1em 0;
+    padding: 2em 0;
     text-align: center;
 }
 
@@ -23,20 +23,11 @@ header p {
     font-size: 1.2em;
 }
 
-header .contact-info {
-    margin-top: 1em;
-}
-
-header .contact-info a {
-    color: #fff;
-    margin: 0 0.5em;
-    text-decoration: none;
-}
-
 nav {
     background: #444;
     color: #fff;
-    padding: 0.5em 0;
+    padding: 1em 0;
+    text-align: center;
 }
 
 nav ul {
@@ -57,20 +48,28 @@ nav ul li a {
 }
 
 section {
-    padding: 2em 1em;
+    padding: 2em;
     background: #fff;
     margin: 1em 0;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+section h2 {
     border-bottom: 2px solid #444;
     padding-bottom: 0.5em;
 }
 
-.experience, .project, .education, .publication {
+.project {
     margin-bottom: 1.5em;
+}
+
+.project h3 {
+    margin: 0;
+}
+
+.project p {
+    margin: 0.5em 0;
 }
 
 footer {
